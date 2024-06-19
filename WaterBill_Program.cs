@@ -50,32 +50,32 @@ namespace ASM_PROGRAMMING_SUM2024
                 double waterAmountPerPerson = waterConsumed / numberOfPeople;
                 if (waterAmountPerPerson <= 10)
                 {
-                    price = 5.973 * waterConsumed;
+                    price = 5973 * waterConsumed;
                 }
                 else if (waterAmountPerPerson <= 20)
                 {
-                    price = 7.052 * waterConsumed;
+                    price = 7052 * waterConsumed;
                 }
                 else if (waterAmountPerPerson <= 30)
                 {
-                    price = 8.699 * waterConsumed;
+                    price = 8699 * waterConsumed;
                 }
                 else
                 {
-                    price = 15.929 * waterConsumed;
+                    price = 15929 * waterConsumed;
                 }
             }
             else if (customerType == "administrative")
             {
-                price = 9.955 * waterConsumed;
+                price = 9955 * waterConsumed;
             }
             else if (customerType == "production")
             {
-                price = 11.615 * waterConsumed;
+                price = 11615 * waterConsumed;
             }
             else if (customerType == "business")
             {
-                price = 22.068 * waterConsumed;
+                price = 22068 * waterConsumed;
             }
 
             return price;
